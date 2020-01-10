@@ -4,8 +4,7 @@
 ・なるべくシンプルに
 ・画面遷移をせずにスクロールするだけで完結する
 上記の二点を意識しました。
-TOPページ
-https://user-images.githubusercontent.com/44168191/72116635-3bcec280-338e-11ea-88ff-df2768fb745c.png
+![Topページ](https://user-images.githubusercontent.com/44168191/72116635-3bcec280-338e-11ea-88ff-df2768fb745c.png)
 
 ## Project setup
 ```
