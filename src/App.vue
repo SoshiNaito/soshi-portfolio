@@ -18,18 +18,18 @@
         <PageTemplate title="skill">
             <Skill/>
         </PageTemplate>
+        <Footer v-if="isActive"/>
     </div>
 </template>
 
 <script>
-
-
     import SnsButtons from "./components/SnsButtons";
     import PageTemplate from "./components/PageTemplate";
     import TemplateArticle from "./components/TemplateArticle";
     import Carrier from "./components/about/Carrier";
     import Works from "./components/works/Works";
     import Skill from "./components/skill/Skill";
+    import Footer from "./components/Footer";
 
     export default {
         name: 'app',
@@ -39,8 +39,32 @@
             PageTemplate,
             SnsButtons,
             TemplateArticle,
-            Skill
-        }
+            Skill,
+            Footer
+        },
+        data() {
+            return {
+                isActive: false,
+            };
+        },
+        mounted() {
+            window.addEventListener('scroll', this.isFooter);
+        },
+        methods: {
+            isFooter() {
+                const y = window.pageYOffset ;
+                console.log(y)
+                if (!this.isActive){
+                    if (y > 575){
+                        this.isActive = true
+                    }
+                }else{
+                    if (y < 575){
+                        this.isActive = false
+                    }
+                }
+            }
+        },
     }
 </script>
 
