@@ -7,6 +7,7 @@
         </div>
         <p class="description">
             使用技術：Python,OpenCV <br>
+            <a href="https://github.com/SoshiNaito/aqua_ponics" target="_blank" rel="noopener">https://github.com/SoshiNaito/aqua_ponics</a>
         </p>
         <p class="description">
             学校であったマーズプロジェクトというプロジェクトに参加した時に作成しました。<br>
