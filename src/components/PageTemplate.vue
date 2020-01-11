@@ -20,14 +20,13 @@
 
 <style scoped>
     .section {
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .pageTitle {
-        margin-bottom: 120px;
+        margin-bottom: 20px;
         padding-bottom: 8px;
         width: 80%;
         color: #2c3e50;
@@ -40,6 +39,32 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 24px;
+    }
+
+    @media screen and (min-width:1024px) {
+        .section {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pageTitle {
+            margin-bottom: 120px;
+            padding-bottom: 8px;
+            width: 80%;
+            color: #2c3e50;
+            font-size: 62px;
+            border-bottom: 1px solid #000000;
+        }
+
+        .contents{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 24px;
+        }
+
     }
 </style>

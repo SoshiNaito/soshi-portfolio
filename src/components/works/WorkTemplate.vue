@@ -49,8 +49,6 @@
         font-size: 32px;
         font-weight: bold;
     }
-
-
     .workImage {
         height: 48%;
 

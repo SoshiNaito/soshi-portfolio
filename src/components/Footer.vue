@@ -17,8 +17,15 @@
 
 <style scoped>
     .footer {
-        position: fixed;
-        bottom: 0;
-        right: 40px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (min-width:1024px) {
+        .footer {
+            position: fixed;
+            bottom: 0;
+            right: 40px;
+        }
     }
 </style>

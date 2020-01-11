@@ -73,6 +73,11 @@
     .root {
         font-family: Mukta;
         height: 100%;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .top {

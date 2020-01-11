@@ -34,7 +34,7 @@
 
 <style scoped>
     .snsLinks {
-        font-size: 62px;
+        font-size: 48px;
     }
 
     .snsLink {
@@ -43,5 +43,18 @@
 
     .snsLink:first-child {
         margin-left: 0;
+    }
+    @media screen and (min-width:1024px) {
+        .snsLinks {
+            font-size: 62px;
+        }
+
+        .snsLink {
+            margin-left: 12px;
+        }
+
+        .snsLink:first-child {
+            margin-left: 0;
+        }
     }
 </style>

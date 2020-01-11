@@ -17,7 +17,14 @@
 
 <style scoped>
     .skillBold{
+        height: 120%;
         font-weight: bold;
         margin-right: 20px;
+    }
+    @media screen and (min-width:1024px) {
+        .skillBold{
+            font-weight: bold;
+            margin-right: 20px;
+        }
     }
 </style>

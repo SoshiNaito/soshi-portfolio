@@ -23,6 +23,7 @@
 
 <style scoped>
     .modalBackGround {
+        z-index: 999;
         position: fixed;
         top: 0;
         left: 0;
@@ -38,6 +39,7 @@
     }
 
     .contents {
+        z-index: 1000;
         position: fixed;
         top: 50%;
         left: 50%;
