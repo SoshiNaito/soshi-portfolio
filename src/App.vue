@@ -11,6 +11,13 @@
             </TemplateArticle>
             <Carrier/>
         </PageTemplate>
+
+        <PageTemplate title="works">
+            <Works/>
+        </PageTemplate>
+        <PageTemplate title="skill">
+            <Skill/>
+        </PageTemplate>
     </div>
 </template>
 
@@ -21,14 +28,18 @@
     import PageTemplate from "./components/PageTemplate";
     import TemplateArticle from "./components/TemplateArticle";
     import Carrier from "./components/about/Carrier";
+    import Works from "./components/works/Works";
+    import Skill from "./components/skill/Skill";
 
     export default {
         name: 'app',
         components: {
+            Works,
             Carrier,
             PageTemplate,
             SnsButtons,
-            TemplateArticle
+            TemplateArticle,
+            Skill
         }
     }
 </script>
