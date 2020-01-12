@@ -92,9 +92,18 @@
         text-align: center;
         width: 80%;
         color: #2c3e50;
-        font-size: 62px;
+        font-size: 48px;
         border-bottom: 1px solid #000000;
     }
 
+    @media screen and (min-width:1024px) {
+        .pageTitle {
+            text-align: center;
+            width: 80%;
+            color: #2c3e50;
+            font-size: 62px;
+            border-bottom: 1px solid #000000;
+        }
+    }
 
 </style>
