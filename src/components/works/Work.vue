@@ -36,6 +36,11 @@
 
 <style scoped>
     .workImage{
-        width: 360px;
+        width: 80%;
+    }
+    @media screen and (min-width:1024px) {
+        .workImage{
+            width: 360px;
+        }
     }
 </style>
