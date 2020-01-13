@@ -43,7 +43,6 @@
 
     @media screen and (min-width:1024px) {
         .section {
-            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
