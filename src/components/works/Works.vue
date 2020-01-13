@@ -6,11 +6,11 @@
         <Work :image-url="OninoNihonshiImage">
             <OninoNihonshi/>
         </Work>
-        <Work :image-url="AquaPonicsImage">
-            <AquaPonics/>
-        </Work>
         <Work :image-url="TobeTobiuokunImage">
             <TobeTobiuokun/>
+        </Work>
+        <Work :image-url="AquaPonicsImage">
+            <AquaPonics/>
         </Work>
     </div>
 </template>
