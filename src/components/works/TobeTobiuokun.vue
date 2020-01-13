@@ -10,7 +10,7 @@
         </p>
         <p class="description">
             シリアスゲームジャムというハッカソンに参加した時に作成したものです。<br>
-            <a href="http://www.mediadesignlabs.org/SGJ7/">http://www.mediadesignlabs.org/SGJ7/</a><br>
+            <a href="http://www.mediadesignlabs.org/SGJ7/" target="_blank" rel="noopener">http://www.mediadesignlabs.org/SGJ7/</a><br>
             参加者の中でエンジニア、デザイナー、企画、リサーチャーでチーム分けを行い、障害者と健常者が同じ土俵で戦えるゲームを作成するというものでした。<br>
             片手で遊べる、競技性があるゲームがコンセプトでプレイヤーはスペースキーで魚を操作し、ランダムに出現するプランクトンを食べてポイントを競います。
         </p>
