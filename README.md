@@ -10,9 +10,9 @@
 コンテンツもそこまで多くなかったのでスマートフォンでも見やすいようにスクロールで完結するようにしました。
 個人的にスクロールだけで完結するポートフォリをサイトが見やすくて好きだったというのもあります！
 
-上記の二点を意識しました。
+製作工程を書いたブログ
+https://na7110.hatenablog.com/entry/2020/01/13/143621
+
 https://soshinaito.github.io/soshi-portfolio/
 ![Topページ](https://user-images.githubusercontent.com/44168191/72116635-3bcec280-338e-11ea-88ff-df2768fb745c.png)
 
-製作経過を書いたブログ
-https://na7110.hatenablog.com/entry/2020/01/13/143621
