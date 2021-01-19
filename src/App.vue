@@ -53,7 +53,6 @@
         methods: {
             isFooter() {
                 const y = window.pageYOffset ;
-                console.log(y)
                 if (!this.isActive){
                     if (y > 575){
                         this.isActive = true
